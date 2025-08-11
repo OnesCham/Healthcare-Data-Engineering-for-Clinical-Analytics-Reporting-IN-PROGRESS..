@@ -25,7 +25,7 @@ To design and implement a dimensional data warehouse to integrate CMS synthetic 
 ### Data Quality
 
 * Post-load validation with row count comparison, and anomaly detection queries.
-* PII fields masked in reporting views using `MASKED WITH (FUNCTION = 'default()')` for HIPAA compliance.
+* Mask any peronal identiofiable information in for HIPAA compliance in the reporting layer.
 * Role-based security in SQL Server for restricting sensitive data.
 
 ### Reporting & Visualization
